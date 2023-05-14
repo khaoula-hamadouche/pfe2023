@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8" />
+    <title>formulaire</title>
+    <link rel="stylesheet"  href="styleformulaire.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+ </head>
+ <body>
+    <div class="formulaire">
+        <div class="barre"></div><br>
+        <form>
+            <h2> Nouveau courrier</h2>
+            <div class="form1">
+                <label for="nomcomplet">Reference</label>
+                <input type="text" placeholder="" required class="input" ><br><br>
+                <label for="nomcomplet">Envoyer par :</label>
+                <input type="text" placeholder="" required class="input" ><br><br>
+                <label for="nomcomplet">Distinataire :</label>
+                <input type="text" placeholder="" required class="input" ><br><br>
+                <label for="nomcomplet">Sous distinataire :</label>
+                <input type="text" placeholder="" required class="input" ><br><br>
+                <label>Nature de doucement :</label>
+                <select id="pays" class="input">
+                <option>pdf</option>
+                <option>docx</option>
+                <option> txt</option></select><br><br>
+                <label>Objet :</label>
+                <input type="text" placeholder="" required class="input"><br><br>
+            
+               
+         
+            </div>
+            <div class="form2">
+                <label for="nomcomplet">Date d'envoyer le courrier:</label>
+                <input type="date" placeholder="" required class="input"><br><br>
+                <label for="nomcomplet">Date limité de traitement :</label>
+                <input type="date" placeholder="" required class="input"><br><br>
+         
+                <label> Nature de courrier :</label>
+                <select class="input">
+                <option>Normal</option>
+                <option>Urgent</option>
+                <option>Trés urgent</option></select><br><br>
+                <label>Remarque :</label>
+                <textarea cols="10" rows="5" class="input"></textarea><br><br>
+                <label> Confidentiel : </label>
+                Oui<input type="radio" >
+                Non<input type="radio" > <br><br>
+                <h3>Ajouter un courrier: </h3><br>
+                <input type="file"><br><br>
+            </div>
+            <div class="button">
+                <input type="submit" value="Envoyer">
+            </div>
+            
+        </form>
+    </div>
+ </body>
+</html>
